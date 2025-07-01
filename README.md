@@ -19,21 +19,21 @@ This project implements a motion-controlled system using an Arduino microcontrol
 - Power supply (battery pack or adapter)
 - Wires, Chassis, Wheels
 
-## 📂 Code Structure
+## 📁 Code Structure
+
+```
 MotionControlledRobotics/
 ├── master_controller/
-│ └── master_controller.ino
+│   └── master_controller.ino
 ├── slave_robot/
-│ └── slave_robot.ino
+│   └── slave_robot.ino
 ├── sensor_calibration/
-│ └── mpu6050_calibration.ino
+│   └── mpu6050_calibration.ino
 ├── swarm_control/
-│ └── swarm_algorithm.ino
+│   └── swarm_algorithm.ino
 ├── README.md
+```
 
-markdown
-Copy
-Edit
 
 ## 📜 File Overview
 - `master_controller.ino`: Reads motion data from MPU-6050 and sends it via NRF.
